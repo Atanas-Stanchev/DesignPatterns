@@ -1,0 +1,19 @@
+{
+    "name": "nasko/design-patterns",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Atanas Stanchev",
+            "email": "naskostan4ev@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
