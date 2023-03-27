@@ -16,3 +16,6 @@ require 'vendor/autoload.php';
 
 // Chain Of Responsibility
 //require './src/chainOfResponsibility/index.php';
+
+// Observable open/close principle
+require './src/observable/index.php';
