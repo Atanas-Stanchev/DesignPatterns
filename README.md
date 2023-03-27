@@ -13,3 +13,9 @@ PHP Design Patterns
 - The chain of Responsibility
 
 - The Specification
+
+
+Tests Running
+```bash 
+$ ./vendor/bin/phpunit --colors tests
+```

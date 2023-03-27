@@ -13,8 +13,8 @@ class CustomerIsGoldTest extends TestCase
     {
         $specification = new CustomerIsGold;
 
-        $goldCustomer = new Customer('gold');
-        $silverCustomer = new Customer('silver');
+        $goldCustomer = new Customer(['type' => 'gold']);
+        $silverCustomer = new Customer(['type' => 'silver']);
 
         $this->assertTrue($specification->isSatisfiedBy($goldCustomer));
         $this->assertFalse($specification->isSatisfiedBy($silverCustomer));

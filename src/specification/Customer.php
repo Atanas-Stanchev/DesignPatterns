@@ -2,17 +2,15 @@
 
 namespace app\specification;
 
-class Customer
-{
-    protected string $type;
+use Illuminate\Database\Eloquent\Model as Eloquent;
 
-    public function __construct($plan)
-    {
-        $this->type = $plan;
-    }
+class Customer extends Eloquent
+{
+    protected $fillable = ['name', 'type'];
 
     public function type(): string
     {
         return $this->type;
     }
+
 }
